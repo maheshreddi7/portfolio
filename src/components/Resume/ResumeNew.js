@@ -20,16 +20,11 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         {/* <Particle /> */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+          
         </Row>
+        <h1 className="project-heading">
+          My  <strong className="purple">Resume </strong>
+        </h1>
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">

@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> java, Javascript , Spring Boot, React. </b>
+                <b className="purple"> java, Html, Css, Javascript, React, Spring Boot</b>
               </i>
               <br />
               <br />
@@ -38,22 +38,22 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">React</b> and
+              with <b className="purple"></b> 
               <i>
                 <b className="purple">
                   {" "}
-                  Spring Boot andModern Javascript Library and Frameworks
+                  React.js , Spring Boot and Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; 
               <i>
-                <b className="purple"> React.js and Spring Boot</b>
+                <b className="purple"> </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluidd" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

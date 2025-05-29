@@ -257,6 +257,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
+  height: 100vh;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -741,3 +742,12 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.img-fluidd{
+  box-shadow: 0px 0 20px 0 white;
+ }
+ .d-flexx {
+  justify-content: center;
+  align-items: center;
+
+ }
