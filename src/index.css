@@ -33,7 +33,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .contact-form {
@@ -41,7 +41,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 50%;
   margin: 2rem auto;
 }
 
@@ -51,8 +51,7 @@ body {
 .input-message,
 .form-submit-button {
   display: block;
-  width: 400px;
-
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -75,17 +74,17 @@ body {
   width: 100%;
 }
 
-.social-links-container {
+/* .social-links-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   width: 100%;
   /* padding: 2rem 4.5rem 4.5rem; */
-  margin-top: 2rem;
-}
+/* margin-top: 2rem;
+} */
 
-.footer {
+/* .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,7 +94,7 @@ body {
   justify-content: space-between;
   padding: 4.5rem 4.5rem 6rem;
   box-shadow: 0 0 0.5rem 0.5rem #cfd9fa;
-}
+} */
 /* 
 .footer .social-links-container {
   padding: 0;
