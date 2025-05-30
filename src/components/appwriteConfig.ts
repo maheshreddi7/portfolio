@@ -4,8 +4,10 @@ import { Client, Databases, Account } from "appwrite";
 // import { type Models } from "appwrite"
 
 export const client: Client = new Client();
-const projectId = process.env.REACT_APP_PROJECT_ID;
-client.setEndpoint("https://fra.cloud.appwrite.io/v1").setProject(projectId!); // My project ID
+// const projectId = process.env.REACT_APP_PROJECT_ID;
+client
+  .setEndpoint("https://fra.cloud.appwrite.io/v1")
+  .setProject("6839400200242bd39bfe"); // My project ID
 
 export const account: Account = new Account(client);
 export const database: Databases = new Databases(client);
