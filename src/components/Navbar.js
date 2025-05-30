@@ -73,7 +73,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/projectt"
+                to="/project"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -93,12 +93,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            
             <Nav.Item>
-              <Nav.Link
-                // href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Nav.Link as={Link} to="/contact">
                 <MdOutlineContactMail style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
