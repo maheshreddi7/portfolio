@@ -93,10 +93,14 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            
             <Nav.Item>
-              <Nav.Link as={Link} to="/contact">
-                <MdOutlineContactMail style={{ marginBottom: "2px" }} /> Contact Me
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdOutlineContactMail style={{ marginBottom: "2px" }} /> Contact
+                Me
               </Nav.Link>
             </Nav.Item>
 
