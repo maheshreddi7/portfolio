@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/img8.png";
+import emotion from "../../Assets/Projects/img1.png";
+import editor from "../../Assets/Projects/img5.png";
+import chatify from "../../Assets/Projects/img3.png";
+import suicide from "../../Assets/Projects/img4.png";
+import bitsOfCode from "../../Assets/Projects/img7.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="YT-Comment-Scraping-and-Analysis"
+              description="YT Comment Scraping and Analysis is a data-driven project that focuses on extracting user comments from YouTube videos and performing analytical processing to uncover insights such as sentiment trends, frequent keywords, and audience engagement patterns. Using web scraping tools and natural language processing techniques, the project transforms raw comment data into meaningful visualizations and reports, offering valuable understanding of public opinion and content performance."
+              ghLink="https://github.com/maheshreddi7/YoutubeCommentScrapingandAnalysis"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Weather-Dashboard"
+              description="Weather Dashboard is a web application that provides real-time weather updates for any city using data fetched from a weather API. It displays current conditions such as temperature, humidity, and wind speed, along with a multi-day forecast. Designed with a user-friendly interface, the dashboard allows users to search for locations and view dynamic weather information, making it a practical tool for planning daily activities."
+              ghLink="https://github.com/maheshreddi7/Weather-Dashboard"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="VanLife"
+              description="VanLife is a lifestyle-focused web application designed to help users explore, book, and manage van rentals for travel adventures. It features listings of available campervans, detailed descriptions, pricing, and user reviews. The platform offers an immersive experience for those interested in mobile living or road trips, combining functionality with a clean, responsive design to make planning a van-based journey simple and enjoyable."
+              ghLink="https://github.com/maheshreddi7/VanLife"
+              demoLink="https://vanlifegeist.netlify.app/"
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Speech-Recognition-GEIST"
+              description="Speech recognition technology enables a computer to understand and convert spoken language into text in real-time. It forms the core of the system by capturing audio input through a microphone, processing it using machine learning models or APIs like Google Speech-to-Text or Vosk, and interpreting the recognized speech to trigger corresponding computer commands. This allows users to control their system hands-free using voice commands."
+              ghLink="https://github.com/maheshreddi7/Speech_Recognition_GEIST"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -69,10 +69,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Chief-Recipe-Ai"
+              description="Chief Recipe AI is an AI-powered recipe generator that creates personalized recipes based on user-input ingredients or preferences. Built using the Hugging Face API for natural language generation, the application provides creative and accurate cooking suggestions in real-time. It combines the power of AI with an intuitive interface, making it a smart companion for home cooks looking for inspiration or meal planning ideas."
+              ghLink="https://github.com/maheshreddi7/Chief-Recipe-Ai"
+              demoLink="https://chiefrecepiemaker.netlify.app/"
             />
           </Col>
 
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Asur - CyberSecurity"
+              description="Asur – CyberSecurity is an all-in-one cybersecurity website designed to provide tools for enhancing digital security. The platform offers a range of features including threat analysis, ethical hacking , cybersecurity news, and tools for vulnerability scanning. With a focus on both learning and practical application, Asur serves as a comprehensive hub for anyone interested in understanding and strengthening their cybersecurity knowledge and practices."
+              ghLink="https://github.com/maheshreddi7/Cyber_GEIST"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>

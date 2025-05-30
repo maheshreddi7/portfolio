@@ -407,6 +407,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  box-shadow: 10px 20px white !important;
 }
 .footer-copywright {
   text-align: center !important;
@@ -743,11 +744,10 @@ button:focus {
   display: none !important;
 }
 
-.img-fluidd{
+.img-fluidd {
   box-shadow: 0px 0 20px 0 white;
- }
- .d-flexx {
+}
+.d-flexx {
   justify-content: center;
   align-items: center;
-
- }
+}
