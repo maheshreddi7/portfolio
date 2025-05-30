@@ -407,7 +407,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
-  box-shadow: 10px 20px white !important;
+  /* box-shadow: 10px 20px white !important; */
 }
 .footer-copywright {
   text-align: center !important;
